@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     margin: 0%;
 }
@@ -18,7 +18,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: aliceblue;
+    color: #f9faf8;
 }
 
 .top {
@@ -26,45 +26,60 @@ a {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10%;
+    border-bottom: #f9faf8;
+    border-bottom-style: solid;
 }
 
 
 .wrapper {
     display: flex;
-    flex-basis: 35px;
-    flex-wrap: wrap;
+
 }
 .links {
     display: flex;
 }
 
 .header {
-    background-color: rgb(95, 156, 170);
+    background-color: #1f2937;
     display: flex;
     flex-direction: column;
     padding: 2% 7%;  
-    color: aliceblue;
+    color: #f9faf8;
 
+}
+
+.smiling {
+    width: 80%;
+    height: auto;
 }
 
 h2 {
     font-style: italic;
     font-weight: 800;
     margin: 0%;
-    font-size: 35px;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
-h1 {
+.left-content h1 {
     margin: 0%;
-    font-size: 40px;
-    color: rgb(66, 68, 68);
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.middle-top h1 {
+    margin: 0%;
+    font-size: 48px;
+    color: #1f2937;
+    font-weight: bolder;
 }
 
 .header-content {
     
     display: flex;
-    flex: 1;
-    justify-content: space-between;
+    padding-bottom: 5%;
+    
 
 }
 
@@ -73,7 +88,13 @@ h1 {
     flex-basis: 30%;
     flex-direction: column;
     color: rgb(92, 102, 104);
-    color: aliceblue;
+    color: #f9faf8;
+    flex: 1;
+}
+.right-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
@@ -81,13 +102,13 @@ button {
 }
 
 .left-content button {
-    background-color: rgb(249, 250, 250);
+    background-color: #3882F6;
     border: none;
-    color: rgb(0, 0, 0);
-    
+    color: #f9faf8;
     border-radius: 5px;
     width: fit-content;
     margin-top: 2%;
+    padding: 2% 5%;
 }
 
 .middle-top {
@@ -108,8 +129,8 @@ button {
 .card img{
     height: 150px;
     width: 150px;
-    border-color: rgb(95, 156, 170);
-    border-width: 5px;
+    border-color: #3882F6;
+    border-width: 3px;
     border-style: solid;
     border-radius: 5%;
     
@@ -130,7 +151,7 @@ button {
 .middle-bottom {
     display: flex;
     justify-content: center;
-    background-color: rgb(181, 217, 226);
+    background-color: #e5e7eb;
     padding: 5%;
     
 }
@@ -138,7 +159,13 @@ button {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    flex-basis: 60%;
+    flex-basis: 70%;
+}
+
+.middle-bottom-content > p:first-child {
+    font-size: 32px;
+    font-style: italic;
+    color: rgb(49, 49, 49);
 }
 .quote {
     text-align: end;
@@ -160,9 +187,9 @@ p {
     width: fit-content;
     height: fit-content;
     border-radius: 5px;
-    border-color: aliceblue;
+    border-color: #f9faf8;
     background-color: #3882F6;
-    color: aliceblue;
+    color: #f9faf8;
     border-style: solid;
     border-width: 2px;
     align-self: center;
@@ -170,15 +197,20 @@ p {
 
 .footer-content {
     display: flex;
-    margin: 5% 10%;
+    margin: 5% 15%;
     padding: 2% 5%;
     background-color: #3882F6;
-    color: aliceblue;
+    color: #f9faf8;
     border-radius: 5px;
-    justify-content: center;
+    justify-content: space-evenly;
+    
+    
     
 }
 
+.footer-text {
+    font-size: 14px;
+}
 
 .footer-text > p:first-child {
     font-weight: bold;
