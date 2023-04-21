@@ -1,8 +1,12 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0%;
+}
+
 li {
     list-style: none;
     margin: 0px;
-
-    
 }
 
 ul {
@@ -10,6 +14,11 @@ ul {
     align-items: center;
     padding: 0;
     gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
 }
 
 .top {
@@ -29,13 +38,12 @@ ul {
     display: flex;
 }
 
-
 .header {
     background-color: rgb(95, 156, 170);
     display: flex;
     flex-direction: column;
     padding: 2% 7%;  
-    color: whitesmoke;
+    color: aliceblue;
 
 }
 
@@ -68,13 +76,18 @@ h1 {
     color: aliceblue;
 }
 
+button {
+    padding: 1% 2%;
+}
+
 .left-content button {
-    width: fit-content;
-    background-color: rgb(255, 255, 255);
-    padding: 2% 4%;
-    border-radius: 12%;
+    background-color: rgb(249, 250, 250);
     border: none;
-    color: rgb(95, 156, 170);
+    color: rgb(0, 0, 0);
+    
+    border-radius: 5px;
+    width: fit-content;
+    margin-top: 2%;
 }
 
 .middle-top {
@@ -89,6 +102,7 @@ h1 {
     margin: 3%;
     display: flex;
     justify-content: space-between;
+
 }
 
 .card img{
@@ -98,6 +112,7 @@ h1 {
     border-width: 5px;
     border-style: solid;
     border-radius: 5%;
+    
 }
 
 .card {
@@ -105,5 +120,85 @@ h1 {
     flex-direction: column;
     flex-basis: 150px;
     text-align: center;
+    
 }
 
+.card > p {
+    font-size: 14px;
+}
+
+.middle-bottom {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(181, 217, 226);
+    padding: 5%;
+    
+}
+.middle-bottom-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 60%;
+}
+.quote {
+    text-align: end;
+    font-weight: 900;
+} 
+
+p {
+    margin: 2%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer-content > button {
+   
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+    border-color: aliceblue;
+    background-color: #3882F6;
+    color: aliceblue;
+    border-style: solid;
+    border-width: 2px;
+    align-self: center;
+}
+
+.footer-content {
+    display: flex;
+    margin: 5% 10%;
+    padding: 2% 5%;
+    background-color: #3882F6;
+    color: aliceblue;
+    border-radius: 5px;
+    justify-content: center;
+    
+}
+
+
+.footer-text > p:first-child {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.copywright {
+    display: flex;
+    background-color: #1f2937;
+}
+
+.cw-text {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.cw-text > p {
+    font-size: 14px;
+    font-weight: 400;
+}
