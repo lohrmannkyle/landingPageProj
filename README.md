@@ -1,4 +1,4 @@
-Landing page for The Oden Project.
+Landing page for The Odin Project.
 
 - HTML
 - CSS
